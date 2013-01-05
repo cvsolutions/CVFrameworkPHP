@@ -44,7 +44,7 @@ class Bootstrap
     	}
 
     	$controller = new $url[0];
-    	$controller->load_model($url[0]);
+    	// $controller->load_model($url[0]);
 
     	if(isset($url[2]))
     	{
