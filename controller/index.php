@@ -10,6 +10,9 @@ class Index extends Controller
 
 	public function index()
 	{
+		$this->load_model('home');
+		$this->model->pippo();
+
 		$this->view->msg = 'Welcome...';
 		$this->view->render('index/index');
 	}
