@@ -6,6 +6,7 @@
 include_once 'CV_Controller.php';
 include_once 'CV_Database.php';
 include_once 'CV_Model.php';
+include_once 'CV_Hash.php';
 
 /**
  * CV_Solutions
