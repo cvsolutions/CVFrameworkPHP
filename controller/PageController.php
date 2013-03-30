@@ -19,7 +19,7 @@ class Page extends CV_Controller
 		
 		$test = $this->Load_Model('Test');
 		$data = $test->Ciao_Mondo();
-		print_r($data);
+		// print_r($data);
 		
 		echo 'Home Page';
 	}
